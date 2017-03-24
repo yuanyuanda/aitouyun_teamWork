@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCECD6681E8523300096278C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6671E8523300096278C /* main.m */; };
+		FCECD66B1E8523300096278C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD66A1E8523300096278C /* AppDelegate.m */; };
+		FCECD66E1E8523300096278C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD66D1E8523300096278C /* ViewController.m */; };
+		FCECD6711E8523300096278C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCECD66F1E8523300096278C /* Main.storyboard */; };
+		FCECD6731E8523300096278C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCECD6721E8523300096278C /* Assets.xcassets */; };
+		FCECD6761E8523300096278C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCECD6741E8523300096278C /* LaunchScreen.storyboard */; };
+		FCECD6811E8523300096278C /* ReuseButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6801E8523300096278C /* ReuseButtonTests.m */; };
+		FCECD68C1E8523300096278C /* ReuseButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD68B1E8523300096278C /* ReuseButtonUITests.m */; };
+		FCECD6B81E8523780096278C /* ButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD69A1E8523780096278C /* ButtonModel.m */; };
+		FCECD6B91E8523780096278C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCECD69C1E8523780096278C /* Info.plist */; };
+		FCECD6BA1E8523780096278C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD69E1E8523780096278C /* MASCompositeConstraint.m */; };
+		FCECD6BB1E8523780096278C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6A11E8523780096278C /* MASConstraint.m */; };
+		FCECD6BC1E8523780096278C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6A31E8523780096278C /* MASConstraintMaker.m */; };
+		FCECD6BD1E8523780096278C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6A51E8523780096278C /* MASLayoutConstraint.m */; };
+		FCECD6BE1E8523780096278C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6A91E8523780096278C /* MASViewAttribute.m */; };
+		FCECD6BF1E8523780096278C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6AB1E8523780096278C /* MASViewConstraint.m */; };
+		FCECD6C01E8523780096278C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6AD1E8523780096278C /* NSArray+MASAdditions.m */; };
+		FCECD6C11E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6B01E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FCECD6C21E8523780096278C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6B21E8523780096278C /* View+MASAdditions.m */; };
+		FCECD6C31E8523780096278C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6B51E8523780096278C /* ViewController+MASAdditions.m */; };
+		FCECD6C41E8523780096278C /* MyFocusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCECD6B71E8523780096278C /* MyFocusCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCECD67D1E8523300096278C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCECD65B1E8523300096278C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCECD6621E8523300096278C;
+			remoteInfo = ReuseButton;
+		};
+		FCECD6881E8523300096278C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCECD65B1E8523300096278C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCECD6621E8523300096278C;
+			remoteInfo = ReuseButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCECD6631E8523300096278C /* ReuseButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReuseButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCECD6671E8523300096278C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCECD6691E8523300096278C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCECD66A1E8523300096278C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCECD66C1E8523300096278C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCECD66D1E8523300096278C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCECD6701E8523300096278C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCECD6721E8523300096278C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCECD6751E8523300096278C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCECD6771E8523300096278C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCECD67C1E8523300096278C /* ReuseButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCECD6801E8523300096278C /* ReuseButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseButtonTests.m; sourceTree = "<group>"; };
+		FCECD6821E8523300096278C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCECD6871E8523300096278C /* ReuseButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCECD68B1E8523300096278C /* ReuseButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseButtonUITests.m; sourceTree = "<group>"; };
+		FCECD68D1E8523300096278C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCECD6991E8523780096278C /* ButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonModel.h; sourceTree = "<group>"; };
+		FCECD69A1E8523780096278C /* ButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonModel.m; sourceTree = "<group>"; };
+		FCECD69C1E8523780096278C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCECD69D1E8523780096278C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FCECD69E1E8523780096278C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FCECD69F1E8523780096278C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FCECD6A01E8523780096278C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FCECD6A11E8523780096278C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FCECD6A21E8523780096278C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FCECD6A31E8523780096278C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FCECD6A41E8523780096278C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FCECD6A51E8523780096278C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FCECD6A61E8523780096278C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FCECD6A71E8523780096278C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FCECD6A81E8523780096278C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FCECD6A91E8523780096278C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FCECD6AA1E8523780096278C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FCECD6AB1E8523780096278C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FCECD6AC1E8523780096278C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FCECD6AD1E8523780096278C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FCECD6AE1E8523780096278C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FCECD6AF1E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FCECD6B01E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FCECD6B11E8523780096278C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FCECD6B21E8523780096278C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FCECD6B31E8523780096278C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FCECD6B41E8523780096278C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FCECD6B51E8523780096278C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FCECD6B61E8523780096278C /* MyFocusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFocusCell.h; sourceTree = "<group>"; };
+		FCECD6B71E8523780096278C /* MyFocusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFocusCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCECD6601E8523300096278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD6791E8523300096278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD6841E8523300096278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCECD65A1E8523300096278C = {
+			isa = PBXGroup;
+			children = (
+				FCECD6651E8523300096278C /* ReuseButton */,
+				FCECD67F1E8523300096278C /* ReuseButtonTests */,
+				FCECD68A1E8523300096278C /* ReuseButtonUITests */,
+				FCECD6641E8523300096278C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCECD6641E8523300096278C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD6631E8523300096278C /* ReuseButton.app */,
+				FCECD67C1E8523300096278C /* ReuseButtonTests.xctest */,
+				FCECD6871E8523300096278C /* ReuseButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCECD6651E8523300096278C /* ReuseButton */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD6991E8523780096278C /* ButtonModel.h */,
+				FCECD69A1E8523780096278C /* ButtonModel.m */,
+				FCECD69B1E8523780096278C /* Masonry */,
+				FCECD6B61E8523780096278C /* MyFocusCell.h */,
+				FCECD6B71E8523780096278C /* MyFocusCell.m */,
+				FCECD6691E8523300096278C /* AppDelegate.h */,
+				FCECD66A1E8523300096278C /* AppDelegate.m */,
+				FCECD66C1E8523300096278C /* ViewController.h */,
+				FCECD66D1E8523300096278C /* ViewController.m */,
+				FCECD66F1E8523300096278C /* Main.storyboard */,
+				FCECD6721E8523300096278C /* Assets.xcassets */,
+				FCECD6741E8523300096278C /* LaunchScreen.storyboard */,
+				FCECD6771E8523300096278C /* Info.plist */,
+				FCECD6661E8523300096278C /* Supporting Files */,
+			);
+			path = ReuseButton;
+			sourceTree = "<group>";
+		};
+		FCECD6661E8523300096278C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD6671E8523300096278C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCECD67F1E8523300096278C /* ReuseButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD6801E8523300096278C /* ReuseButtonTests.m */,
+				FCECD6821E8523300096278C /* Info.plist */,
+			);
+			path = ReuseButtonTests;
+			sourceTree = "<group>";
+		};
+		FCECD68A1E8523300096278C /* ReuseButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD68B1E8523300096278C /* ReuseButtonUITests.m */,
+				FCECD68D1E8523300096278C /* Info.plist */,
+			);
+			path = ReuseButtonUITests;
+			sourceTree = "<group>";
+		};
+		FCECD69B1E8523780096278C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FCECD69C1E8523780096278C /* Info.plist */,
+				FCECD69D1E8523780096278C /* MASCompositeConstraint.h */,
+				FCECD69E1E8523780096278C /* MASCompositeConstraint.m */,
+				FCECD69F1E8523780096278C /* MASConstraint+Private.h */,
+				FCECD6A01E8523780096278C /* MASConstraint.h */,
+				FCECD6A11E8523780096278C /* MASConstraint.m */,
+				FCECD6A21E8523780096278C /* MASConstraintMaker.h */,
+				FCECD6A31E8523780096278C /* MASConstraintMaker.m */,
+				FCECD6A41E8523780096278C /* MASLayoutConstraint.h */,
+				FCECD6A51E8523780096278C /* MASLayoutConstraint.m */,
+				FCECD6A61E8523780096278C /* Masonry.h */,
+				FCECD6A71E8523780096278C /* MASUtilities.h */,
+				FCECD6A81E8523780096278C /* MASViewAttribute.h */,
+				FCECD6A91E8523780096278C /* MASViewAttribute.m */,
+				FCECD6AA1E8523780096278C /* MASViewConstraint.h */,
+				FCECD6AB1E8523780096278C /* MASViewConstraint.m */,
+				FCECD6AC1E8523780096278C /* NSArray+MASAdditions.h */,
+				FCECD6AD1E8523780096278C /* NSArray+MASAdditions.m */,
+				FCECD6AE1E8523780096278C /* NSArray+MASShorthandAdditions.h */,
+				FCECD6AF1E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FCECD6B01E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FCECD6B11E8523780096278C /* View+MASAdditions.h */,
+				FCECD6B21E8523780096278C /* View+MASAdditions.m */,
+				FCECD6B31E8523780096278C /* View+MASShorthandAdditions.h */,
+				FCECD6B41E8523780096278C /* ViewController+MASAdditions.h */,
+				FCECD6B51E8523780096278C /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCECD6621E8523300096278C /* ReuseButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCECD6901E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButton" */;
+			buildPhases = (
+				FCECD65F1E8523300096278C /* Sources */,
+				FCECD6601E8523300096278C /* Frameworks */,
+				FCECD6611E8523300096278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReuseButton;
+			productName = ReuseButton;
+			productReference = FCECD6631E8523300096278C /* ReuseButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCECD67B1E8523300096278C /* ReuseButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCECD6931E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButtonTests" */;
+			buildPhases = (
+				FCECD6781E8523300096278C /* Sources */,
+				FCECD6791E8523300096278C /* Frameworks */,
+				FCECD67A1E8523300096278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCECD67E1E8523300096278C /* PBXTargetDependency */,
+			);
+			name = ReuseButtonTests;
+			productName = ReuseButtonTests;
+			productReference = FCECD67C1E8523300096278C /* ReuseButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCECD6861E8523300096278C /* ReuseButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCECD6961E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButtonUITests" */;
+			buildPhases = (
+				FCECD6831E8523300096278C /* Sources */,
+				FCECD6841E8523300096278C /* Frameworks */,
+				FCECD6851E8523300096278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCECD6891E8523300096278C /* PBXTargetDependency */,
+			);
+			name = ReuseButtonUITests;
+			productName = ReuseButtonUITests;
+			productReference = FCECD6871E8523300096278C /* ReuseButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCECD65B1E8523300096278C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "邢媛媛";
+				TargetAttributes = {
+					FCECD6621E8523300096278C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FCECD67B1E8523300096278C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCECD6621E8523300096278C;
+					};
+					FCECD6861E8523300096278C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCECD6621E8523300096278C;
+					};
+				};
+			};
+			buildConfigurationList = FCECD65E1E8523300096278C /* Build configuration list for PBXProject "ReuseButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCECD65A1E8523300096278C;
+			productRefGroup = FCECD6641E8523300096278C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCECD6621E8523300096278C /* ReuseButton */,
+				FCECD67B1E8523300096278C /* ReuseButtonTests */,
+				FCECD6861E8523300096278C /* ReuseButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCECD6611E8523300096278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCECD6B91E8523780096278C /* Info.plist in Resources */,
+				FCECD6761E8523300096278C /* LaunchScreen.storyboard in Resources */,
+				FCECD6731E8523300096278C /* Assets.xcassets in Resources */,
+				FCECD6711E8523300096278C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD67A1E8523300096278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD6851E8523300096278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCECD65F1E8523300096278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCECD6BC1E8523780096278C /* MASConstraintMaker.m in Sources */,
+				FCECD66E1E8523300096278C /* ViewController.m in Sources */,
+				FCECD6B81E8523780096278C /* ButtonModel.m in Sources */,
+				FCECD6BB1E8523780096278C /* MASConstraint.m in Sources */,
+				FCECD6C31E8523780096278C /* ViewController+MASAdditions.m in Sources */,
+				FCECD6BD1E8523780096278C /* MASLayoutConstraint.m in Sources */,
+				FCECD6C01E8523780096278C /* NSArray+MASAdditions.m in Sources */,
+				FCECD6BF1E8523780096278C /* MASViewConstraint.m in Sources */,
+				FCECD6BE1E8523780096278C /* MASViewAttribute.m in Sources */,
+				FCECD6C41E8523780096278C /* MyFocusCell.m in Sources */,
+				FCECD6C21E8523780096278C /* View+MASAdditions.m in Sources */,
+				FCECD66B1E8523300096278C /* AppDelegate.m in Sources */,
+				FCECD6681E8523300096278C /* main.m in Sources */,
+				FCECD6BA1E8523780096278C /* MASCompositeConstraint.m in Sources */,
+				FCECD6C11E8523780096278C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD6781E8523300096278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCECD6811E8523300096278C /* ReuseButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCECD6831E8523300096278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCECD68C1E8523300096278C /* ReuseButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCECD67E1E8523300096278C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCECD6621E8523300096278C /* ReuseButton */;
+			targetProxy = FCECD67D1E8523300096278C /* PBXContainerItemProxy */;
+		};
+		FCECD6891E8523300096278C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCECD6621E8523300096278C /* ReuseButton */;
+			targetProxy = FCECD6881E8523300096278C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCECD66F1E8523300096278C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCECD6701E8523300096278C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCECD6741E8523300096278C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCECD6751E8523300096278C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCECD68E1E8523300096278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCECD68F1E8523300096278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCECD6911E8523300096278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReuseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCECD6921E8523300096278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReuseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCECD6941E8523300096278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReuseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReuseButton.app/ReuseButton";
+			};
+			name = Debug;
+		};
+		FCECD6951E8523300096278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReuseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReuseButton.app/ReuseButton";
+			};
+			name = Release;
+		};
+		FCECD6971E8523300096278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReuseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReuseButton;
+			};
+			name = Debug;
+		};
+		FCECD6981E8523300096278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReuseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyy.ReuseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReuseButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCECD65E1E8523300096278C /* Build configuration list for PBXProject "ReuseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCECD68E1E8523300096278C /* Debug */,
+				FCECD68F1E8523300096278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCECD6901E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCECD6911E8523300096278C /* Debug */,
+				FCECD6921E8523300096278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCECD6931E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCECD6941E8523300096278C /* Debug */,
+				FCECD6951E8523300096278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCECD6961E8523300096278C /* Build configuration list for PBXNativeTarget "ReuseButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCECD6971E8523300096278C /* Debug */,
+				FCECD6981E8523300096278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCECD65B1E8523300096278C /* Project object */;
+}
